@@ -8,11 +8,11 @@ _Undergraduate major in Computer Science, Tongji University, China_ <br>
 
 **Undergraduate of Computer Science** in Computer Science and Technologies<br>
 [Tongji University](https://see.tongji.edu.cn/) - Shanghai, China _(Sep 2018 - Present)_ <br>
-_GPA: 4.76/5.0_** - first tier
+**GPA: 4.76/5.0** - first tier
 
 **8-week Summer School Project** for Data Science and Technologies<br>
 [Univercity of California, Berkeley](https://summer.berkeley.edu/) - California, USA _(Jun 2020 - Aug 2020)_ <br>
-[Principles And Technologies of Data Science](https://ds100.org/) - _Grade: A_**
+[Principles And Technologies of Data Science](https://ds100.org/) - **Grade: A**
 
 **Undergraduate of Material Science** in Computer Science and Technologies<br>
 [Tongji University](https://smse.tongji.edu.cn/) - Shanghai, China _(Sep 2017 - July 2018)_
@@ -20,19 +20,19 @@ _GPA: 4.76/5.0_** - first tier
 
 ## 🏆 Accomplishments And Certificates
 
+**China National Scholarship** _(Nov 2019)_ <br>
+Highest scholarship given by Chinese government, **top 0.1%**
+<br><br>
+
+**First Prize of Tongji Scholarship of Excellence** _(Nov 2018)_ <br>
+Tongji Scholarship for outstanding students, **top 5%**
+<br><br>
+
 **First Prize of China College Students' 'Internet+'Innovation and Entrepreneurship Competition,Tongji University** _(Sep 2020)_<br>
 Built a RNN model to solve the sewage purification problem.
 
 **Third Prize of Contemporary Undergraduate Mathematical Contest in Modeling** @ [CUMCM](http://www.mcm.edu.cn/) _(Aug 2020)_<br>
 As the team leader, built the Dynamic Programming model and model of Dynamic Games with Incomplete Information to solve the go-through desert problem.
-
-**China National Scholarship** _(Nov 2019)_ <br>
-Highest scholarship given by Chinese government, top 0.1%
-<br><br>
-
-**First Prize of Tongji Scholarship of Excellence** _(Nov 2018)_ <br>
-Tongji Scholarship for outstanding students, top 5%
-<br><br>
 
 ## 👩🏼‍💻 Project Experience
 
@@ -56,6 +56,7 @@ An Unix V6++ Style File Sytem to read disk images and responds to linux style co
 Semi-Supervised Learning method with fixmatch trainning for Chest8 and Stanford CheXpert dataset.
   - Medical Image Processing and Data Augmentation For Chest X-ray images.
   - Adapted FixMatch algorithm to multi-label learning.
+  - **_Technologies used:_** Deep Learning, Computer Vision, Python Programming, Pytorch.
     <br><br>
     
 ## 🗞 Work Experience
@@ -63,4 +64,5 @@ Semi-Supervised Learning method with fixmatch trainning for Chest8 and Stanford 
 **Internship in Product RD and Infrastucture Department, Bytedance** @ [Company](https://bytedance.com/en/) _(Jan 2021 - Present)_ <br>
 Infrastructure Development Intern in Bytedance.
   - Joined the development of data retention system and data-mapping system.
+  - **_Technologies used:_** Go Programming, Web programming, Distributed System.
 <br><br>
