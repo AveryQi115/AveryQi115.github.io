@@ -138,7 +138,7 @@ The above query's startup cost is `0.00` and total cost is `145.00`.
 
 **Sequential Scan Estimation**:
 
-![image-20230928111537670](/assets/imgs/seqscan_run_cost.png)
+![](/assets/imgs/seqscan_run_cost.png)
 
 **Index Scan Estimation**:
 
@@ -146,8 +146,8 @@ The above query's startup cost is `0.00` and total cost is `145.00`.
 
   Although postgres have multiple index, they all use cost_index to estimate. $H_{index}$ is the height of the index tree.
 
-  ![image-20230928112315174](/assets/imgs/index_startup.png)
+  ![](/assets/imgs/index_startup.png)
 
 - **run cost**
 
-  ![image-20230928112834150](/assets/imgs/index_run_cost.png)
+  ![](/assets/imgs/index_run_cost.png)
