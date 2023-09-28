@@ -8,13 +8,13 @@ categories: jekyll update
 
 Postgres database cluster is not like many database servers. It hosts on single server and contains multiple databases. Each database contains multiple indexes, tables and other objects. Databases, tables, indexes files are all objects, and are uniquely identified with an **OID**.
 
-![image-20230925110834969](/AveryQi115.github.io/assets/imgs/storage.png)
+![image-20230925110834969](/assets/imgs/storage.png)
 
 Its storage is like a file system. All the files except for tablespace are stored in base directory, specified by `$PGDATA`. Database subdirectories are named as their **OID**s.
 
 Inside database, tables and index files are initially 1GB file named as their **reffilenode**, or serveral 1GB files named as **reffilenode.x** if it gets larger size.
 
-![](/AveryQi115.github.io/assets/imgs/reffilenode.jpg)
+![](/assets/imgs/reffilenode.jpg)
 
 Besides, each table also associates with two files with suffix **_fsm** and **_vm**. They are free space map and visibility map. 
 
@@ -23,7 +23,7 @@ Besides, each table also associates with two files with suffix **_fsm** and **_v
 
 ## Table Storage
 
-![](/AveryQi115.github.io/assets/imgs/heap_file.jpg)
+![](/assets/imgs/heap_file.jpg)
 
 ## Indexes
 
@@ -63,7 +63,7 @@ References:
 
 ## Process
 
-![](/AveryQi115.github.io/assets/imgs/processes.jpg)
+![](/assets/imgs/processes.jpg)
 
 Postgres has following main processes:
 
@@ -73,13 +73,13 @@ Postgres has following main processes:
 
 - **Background process**: 
 
-  ![](/AveryQi115.github.io/assets/imgs/bg_processes.jpg)
+  ![](/assets/imgs/bg_processes.jpg)
 
 - **Background worker process**: like background process, but is created by user to do background works.
 
 ## Memory
 
-![](/AveryQi115.github.io/assets/imgs/memory.png)
+![](/assets/imgs/memory.png)
 
 - Local Memory Area: Each backend process allocate a local memory area for query processing
   - **Work-mem**: for sorting tuples for **ORDER_BY** and **DISTINCT**, and for joining tables for **merge join** and **hash join**
@@ -92,13 +92,13 @@ Postgres has following main processes:
 
 ## Query Processing
 
-![](/AveryQi115.github.io/assets/imgs/query.png)
+![](/assets/imgs/query.png)
 
 - Parser
 
   It is like a frontend of compilers, creating a syntax tree and checking syntax.
 
-  ![](/AveryQi115.github.io/assets/imgs/parser.png)
+  ![](/assets/imgs/parser.png)
 
 - Analyzer
 
@@ -138,7 +138,7 @@ The above query's startup cost is `0.00` and total cost is `145.00`.
 
 **Sequential Scan Estimation**:
 
-![image-20230928111537670](/AveryQi115.github.io/assets/imgs/seqscan_run_cost.png)
+![image-20230928111537670](/assets/imgs/seqscan_run_cost.png)
 
 **Index Scan Estimation**:
 
@@ -146,8 +146,8 @@ The above query's startup cost is `0.00` and total cost is `145.00`.
 
   Although postgres have multiple index, they all use cost_index to estimate. $H_{index}$ is the height of the index tree.
 
-  ![image-20230928112315174](/AveryQi115.github.io/assets/imgs/index_startup.png)
+  ![image-20230928112315174](/assets/imgs/index_startup.png)
 
 - **run cost**
 
-  ![image-20230928112834150](/AveryQi115.github.io/assets/imgs/index_run_cost.png)
+  ![image-20230928112834150](/assets/imgs/index_run_cost.png)
